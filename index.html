@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вадим Епишин | Python & AI Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Фоновое свечение, следующее за мышью -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+    
+    <!-- Фоновые декоративные элементы для глубины -->
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+
+    <!-- Навигация -->
+    <nav class="navbar glass">
+        <div class="container nav-content">
+            <a href="#" class="logo">V.E.</a>
+            <ul class="nav-links">
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#experience">Опыт</a></li>
+                <li><a href="#contact" class="btn-nav">Связаться</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Главный экран -->
+    <header class="hero" id="hero">
+        <div class="container hero-content">
+            <span class="tag glass">Открыт к предложениям • Рязань / Remote</span>
+            <h1 class="hero-title">Епишин Вадим <br><span class="gradient-text">Андреевич</span></h1>
+            <div class="typewriter-container">
+                <span class="typewriter-text" id="typewriter"></span>
+                <span class="cursor">|</span>
+            </div>
+            <p class="hero-desc">
+                Создаю надежные цифровые решения с космическими стандартами качества. 
+                Фокус на Python, искусственном интеллекте и чистой архитектуре кода.
+            </p>
+            <div class="hero-actions">
+                <a href="#contact" class="btn btn-primary">Связаться со мной</a>
+                <a href="#experience" class="btn btn-secondary">Мой путь</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Обо мне -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title reveal">Обо мне</h2>
+            <div class="grid-2">
+                <div class="glass-card reveal">
+                    <h3>Профиль</h3>
+                    <p>Мне 20 лет, я увлечен разработкой масштабируемых решений и нейросетями. Ценю прозрачность процессов, Agile-подход и строгий Code Review. Стремлюсь к тому, чтобы код был не просто рабочим, но и элегантным.</p>
+                </div>
+                <div class="glass-card reveal">
+                    <h3>Образование</h3>
+                    <ul class="list-clean">
+                        <li><strong>РТК</strong> — Информационные системы и программирование</li>
+                        <li><strong>Специализация</strong> — Курсы ИИ-специалиста</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Навыки -->
+    <section class="section" id="skills">
+        <div class="container">
+            <h2 class="section-title reveal">Технологический стек</h2>
+            <div class="skills-grid">
+                <div class="skill-card glass reveal">
+                    <div class="skill-icon">🐍</div>
+                    <h4>Python & Backend</h4>
+                    <p>Разработка серверной логики, API, работа с базами данных.</p>
+                </div>
+                <div class="skill-card glass reveal">
+                    <div class="skill-icon">🧠</div>
+                    <h4>AI & Machine Learning</h4>
+                    <p>Интеграция нейросетей, обработка данных, LLM-решения.</p>
+                </div>
+                <div class="skill-card glass reveal">
+                    <div class="skill-icon">🌐</div>
+                    <h4>Web & Mobile</h4>
+                    <p>Создание адаптивных веб-интерфейсов и кастомных решений.</p>
+                </div>
+                <div class="skill-card glass reveal">
+                    <div class="skill-icon">🚀</div>
+                    <h4>Quality & Agile</h4>
+                    <p>Автотесты, Code Review, снижение технического долга.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Опыт -->
+    <section class="section" id="experience">
+        <div class="container">
+            <h2 class="section-title reveal">Опыт и Проекты</h2>
+            <div class="timeline">
+                <div class="timeline-item glass reveal">
+                    <div class="timeline-date">2024 — Настоящее время</div>
+                    <h3>Python Developer / AI Specialist</h3>
+                    <h4 class="company">IT-компания «Moon»</h4>
+                    <p>Участие в создании цифровых решений для крупного бизнеса. Разработка на Python, внедрение AI-инструментов, участие в Agile-процессах. Строгий контроль качества кода и архитектурное проектирование.</p>
+                </div>
+                <div class="timeline-item glass reveal">
+                    <div class="timeline-date">2021 — 2024</div>
+                    <h3>Обучение и Пет-проекты</h3>
+                    <h4 class="company">РТК & Self-Education</h4>
+                    <p>Фундаментальное изучение информационных систем, программирования и современных фреймворков. Реализация учебных проектов с упором на чистоту кода и тестирование.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="contact-card glass reveal">
+                <h2 class="section-title">Давайте создадим что-то великое</h2>
+                <p class="contact-desc">Открыт к обсуждению интересных проектов, вакансий и коллабораций.</p>
+                <div class="contact-links">
+                    <a href="mailto:richarlichnost@gmail.com" class="contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <span>richarlichnost@gmail.com</span>
+                    </a>
+                    <a href="tel:+79537339353" class="contact-item">
+                        <span class="contact-icon">📱</span>
+                        <span>+7 (953) 733-93-53</span>
+                    </a>
+                    <a href="#" class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <span>Рязань, Россия</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Епишин Вадим. Создано с любовью к чистому коду.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
